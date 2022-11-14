@@ -21,12 +21,12 @@
                     <h5 class="card-title">{{$gambar}}</h5>
                     <p class="card-text">
 
-                        @if ($gambar == 'kucing')
-                            <div>Meong</div>
-                        @elseif ($gambar == 'kambing')
-                            <div>Mbeek</div>
-                        @elseif($gambar == 'anjing')
-                            <div>gukguk</div>
+                        @if ($gambar == 'beach')
+                            <div>pantai</div>
+                        @elseif ($gambar == 'forest')
+                            <div>hutan</div>
+                        @elseif($gambar == 'mountain')
+                            <div>gunung</div>
                         @endif
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
